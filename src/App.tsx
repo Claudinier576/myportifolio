@@ -6,17 +6,23 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { useState } from 'react';
 
+export interface GenericProps {
+  language: "pt-br" | "en";
+  setLanguage?: React.Dispatch<React.SetStateAction<"pt-br" | "en">>;
+}
 
 function App() {
+  const [language, setLanguage] = useState<"pt-br" | "en">("pt-br");
   return (
     <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <NavBar language={language} setLanguage={setLanguage} />
+      <Banner language={language} />
+      <Skills language={language} />
+      <Projects  language={language}/>
+      <Contact  language={language}/>
+      <Footer language={language} />
     </div>
   );
 }

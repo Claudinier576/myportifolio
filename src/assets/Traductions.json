@@ -1,0 +1,88 @@
+{
+    "Welcome": {
+        "pt-br": "Bem vindo(a)",
+        "en": "Welcome"
+    },
+    "Hi": {
+        "pt-br": "Olá, sou Claudinier",
+        "en": "Hi! I'm Claudinier"
+    },
+    "about-me": {
+        "en": "I am a Full Stack Web Developer with experience in projects involving technologies such as HTML, CSS, JavaScript, TypeScript, React, NodeJS, NestJS, Python, Django, TypeORM, Prisma. Throughout my learning journey, I have been responsible for creating interactive and responsive user interfaces, functional and secure APIs, and other Full Stack projects. I have experience with agile methodologies like SCRUM and utilize tools like Trello, Notion, and others to optimize my effectiveness. In summary, my experience with these technologies allows me to contribute significantly to modern and scalable web and mobile development.\n\n\n        Other skills include PostgreSQL, NextJS, and SQL.",
+        "pt-br": "Sou um Desenvolvedor Web Full Stack, com experiência em projetos envolvendo as tecnologias: HTML| CSS| JavaScript| Typescript| React | NodeJS| NestJs |Python | DJANGO | TypeORM | Prisma , Ao longo do meu aprendizado, fui responsável por criar interfaces de usuário interativas e responsivas, APIs funcionais e seguras, entre outros projetos FullStack, tenho vivência em metodologias ágeis como o SCRUM, utilização de ferramentas para otimizar minha efetividade como Trello, Notion entre outros. Em resumo, minha experiência em determinadas tecnologias me permite contribuir de maneira significativa para o desenvolvimento web e móveis modernas e escaláveis. \n\n\n Outras Competências: PostgreSQL,NextJS,SQL "
+    },
+    "Home": {
+        "en": "Home",
+        "pt-br": "Inicio"
+    },
+    "Projects": {
+        "en": "Projects",
+        "pt-br": "Projetos"
+    },
+    "Skills": {
+        "en": "Skills",
+        "pt-br": "Habilidades"
+    },
+    "ChoiseLanguage": {
+        "en": "Choise Language",
+        "pt-br": "Escolher Idioma"
+    },
+    "LetsConnect": {
+        "en": "Let’s Connect",
+        "pt-br": "Vamos nos conectar!"
+    },
+    "toRotate": {
+        "en": [
+            "Web Developer Full Stack",
+            "Future Game Developer"
+        ],
+        "pt-br": [
+            "Desenvolvedor Web",
+            "Futuro Desenvolvedor de Jogos"
+        ]
+    },
+    "AllRightsReserved": {
+        "en": "All Rights Reserved",
+        "pt-br": "Todos os Direitos Reservados"
+    },
+    "AboutProjects": {
+        "en": "My Web projects in React, Node, Nest, Next, Typescript, and other technologies.",
+        "pt-br": "Meus Projetos em React, Node, Nest, Next, Typescript e outras tecnologias"
+    },
+    "WebDevelopment": {
+        "en": "Web Development",
+        "pt-br": "Desenvolvimento Web"
+    },
+    "GameDevelopment": {
+        "en": "Game Development",
+        "pt-br": "Desenvolvimento de jogos"
+    },
+    "GetInTouch": {
+        "en": "Get In Touch",
+        "pt-br": "Entre em contato"
+    },
+    "FirstName": {
+        "en": "First Name",
+        "pt-br": "Primeiro Nome"
+    },
+    "LastName":{
+        "en": "Last Name",
+        "pt-br": "Sobrenome"
+    },
+    "EmailAddress":{
+        "en": "Email Address",
+        "pt-br": "Endereço de Email"
+    },
+    "Phone":{
+        "en": "Phone No.",
+        "pt-br": "Número para contato"
+    },
+    "Message":{
+        "en": "Message",
+        "pt-br": "Mensagem"
+    },
+    "Send": {
+        "en": "Send",
+        "pt-br": "Enviar"
+    }
+}
