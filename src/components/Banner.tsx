@@ -11,10 +11,10 @@ export const Banner = ({ language }: GenericProps) => {
 
   const [isDeleting, setIsDeleting] = useState<boolean>(false);
   const [text, setText] = useState<string>('');
-  const [delta, setDelta] = useState<number>(300 - Math.random() * 100);
+  const [delta, setDelta] = useState<number>(250);
   const [_index, setIndex] = useState<number>(1);
   const toRotate = traductionsJSON.toRotate[language];
-  const period = 200;
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -44,7 +44,7 @@ export const Banner = ({ language }: GenericProps) => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(250);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
